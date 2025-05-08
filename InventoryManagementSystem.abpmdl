@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "InventoryManagementSystem.Application": {
+      "path": "src/InventoryManagementSystem.Application/InventoryManagementSystem.Application.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.Application.Tests": {
+      "path": "test/InventoryManagementSystem.Application.Tests/InventoryManagementSystem.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.Domain.Shared": {
+      "path": "src/InventoryManagementSystem.Domain.Shared/InventoryManagementSystem.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.Application.Contracts": {
+      "path": "src/InventoryManagementSystem.Application.Contracts/InventoryManagementSystem.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.HttpApi": {
+      "path": "src/InventoryManagementSystem.HttpApi/InventoryManagementSystem.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.HttpApi.Client": {
+      "path": "src/InventoryManagementSystem.HttpApi.Client/InventoryManagementSystem.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.Web": {
+      "path": "src/InventoryManagementSystem.Web/InventoryManagementSystem.Web.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.Web.Tests": {
+      "path": "test/InventoryManagementSystem.Web.Tests/InventoryManagementSystem.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.EntityFrameworkCore.Tests": {
+      "path": "test/InventoryManagementSystem.EntityFrameworkCore.Tests/InventoryManagementSystem.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.EntityFrameworkCore": {
+      "path": "src/InventoryManagementSystem.EntityFrameworkCore/InventoryManagementSystem.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.TestBase": {
+      "path": "test/InventoryManagementSystem.TestBase/InventoryManagementSystem.TestBase.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.Domain.Tests": {
+      "path": "test/InventoryManagementSystem.Domain.Tests/InventoryManagementSystem.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/InventoryManagementSystem.HttpApi.Client.ConsoleTestApp/InventoryManagementSystem.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "InventoryManagementSystem.DbMigrator": {
+      "path": "src/InventoryManagementSystem.DbMigrator/InventoryManagementSystem.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "InventoryManagementSystem.Domain": {
+      "path": "src/InventoryManagementSystem.Domain/InventoryManagementSystem.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿using InventoryManagementSystem.EntityFrameworkCore;
+
+namespace InventoryManagementSystem;
+
+public class InventoryManagementSystemWebCollection : InventoryManagementSystemEntityFrameworkCoreCollectionFixtureBase
+{
+
+}

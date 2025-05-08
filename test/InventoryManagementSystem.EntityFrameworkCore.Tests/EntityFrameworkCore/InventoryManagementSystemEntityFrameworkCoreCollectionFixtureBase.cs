@@ -1,0 +1,9 @@
+﻿using InventoryManagementSystem.EntityFrameworkCore;
+using Xunit;
+
+namespace InventoryManagementSystem.EntityFrameworkCore;
+
+public class InventoryManagementSystemEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<InventoryManagementSystemEntityFrameworkCoreFixture>
+{
+
+}

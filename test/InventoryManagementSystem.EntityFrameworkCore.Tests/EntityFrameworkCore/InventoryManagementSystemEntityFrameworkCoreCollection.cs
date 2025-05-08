@@ -1,0 +1,9 @@
+﻿using Xunit;
+
+namespace InventoryManagementSystem.EntityFrameworkCore;
+
+[CollectionDefinition(InventoryManagementSystemTestConsts.CollectionDefinitionName)]
+public class InventoryManagementSystemEntityFrameworkCoreCollection : ICollectionFixture<InventoryManagementSystemEntityFrameworkCoreFixture>
+{
+
+}
